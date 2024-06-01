@@ -20,7 +20,7 @@ const TextNode = ({ data, id, onSettingsClick }) => {
           style={{ cursor: 'pointer', width: '12px' }}
         />
       </div>
-      <div style={{padding:'2px 5px'}}>{data.label}</div>
+      <div style={{padding:'2px 15px'}}>{data.label}</div>
       <Handle type="source" position="right" />
     </div>
   );
